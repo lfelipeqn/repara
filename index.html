@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/camera.css">
+    
+    
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    
+    
+    
+    <script src='js/camera.js'></script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+        <script src="js/jquery.mobile.customized.min.js"></script>
+    <!--<![endif]-->
+    
+    <script>	
+        $(window).load( function(){	
+           //camera
+    	   jQuery('.camera_wrap').camera();	
+           
+           //btn-link hover
+           $('.box1_1 a').hover(function(){
+        		$(this).find('img').stop().animate({ 'top': "-38px" }, 110, "easeOutExpo")
+        		$(this).parent().parent().parent().find('span').stop().animate({ 'height': "100%" }, 450, "easeOutExpo")		 
+        	}, function(){	
+        		$(this).find('img').stop().animate({ 'top': "0px" }, 110, "easeOutExpo")
+        		$(this).parent().parent().parent().find('span').stop().animate({ 'height': "0%"}, 450, "easeOutExpo")	
+        	})
+           	 
+        });
+    </script>
+    
+    <!--[if lt IE 9]>
+    <div style='text-align:center'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>  
+    <script src="assets/assets/js/html5shiv.js"></script> 
+    <script src="assets/assets/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+
+<body>
+<!--==============================header=================================-->
+<header id="header">
+    <div class="container">
+      <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img alt="plumbing" src="img/logo.png"></a></h1>
+          <div class="menuheader">
+            <nav class="navbar navbar-default navbar-static-top tm_navbar" role="navigation">
+                <ul class="nav sf-menu">
+                  <li class="active"><a href="index.html">home<span><em></em></span></a>
+                    <ul>
+                      <li><img src="img/arrowup.png" alt=""><a href="#">staff</a></li>
+                      <li><a href="#">history</a></li>
+                      <li><a class="last" href="#">news</a>
+                        <ul>
+                           <li><a href="#">fresh</a></li>
+                           <li><a class="last" href="#">archive</a></li>                       
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="index-1.html">about us<span><em></em></span></a></li>
+                  <li><a href="index-2.html">our services<span><em></em></span></a></li>
+                  <li><a href="index-3.html">news & events<span><em></em></span></a></li>
+                  <li class="last"><a href="index-4.html">contacts<span><em></em></span></a></li>
+                </ul>
+            </nav>
+          </div>
+    </div>
+</header>
+<!--==============================content=================================-->
+<div id="content">
+    <!--==============================slider=================================-->
+    <div class="slider">
+        <div class="camera_wrap">
+              <div data-src="img/picture1.jpg">
+                    <div class="camera_caption fadeIn">
+                        <div class="camera_caption_bg">
+                          <p class="title1">Fast Full Services</p>
+                          <p class="title2">kaseceras vaserat niptai ades goertayse dras  molernatur kins auonse quseryi uasase aplicabo nerafaes kertyus svitae ertyemo</p>
+                        </div>
+                    </div>
+              </div>
+              <div data-src="img/picture2.jpg">
+                    <div class="camera_caption fadeIn">
+                        <div class="camera_caption_bg">
+                          <p class="title1">In-Line Video Cam</p>
+                          <p class="title2">molernatur kins auonse quseryi uasase aplicabo kaseceras vaserat niptai ades goertayse dras   nerafaes kertyus svitae ertyemo</p>
+                        </div>
+                    </div>
+              </div>
+              <div data-src="img/picture3.jpg">
+                    <div class="camera_caption fadeIn">
+                        <div class="camera_caption_bg">
+                          <p class="title1">Pipe Replacements & Repair</p>
+                          <p class="title2">kaplicabo nerafaes kertyus svitae ertyemo aseceras vaserat niptai ades goertayse dras  molernatur kins auonse quseryi uasase</p>
+                        </div>
+                    </div>
+              </div>
+        </div>
+    </div> 
+    <!--==============================row_1=================================-->
+    <div class="row_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p class="title3">Welcome <span>Message</span></p>
+                    <p class="title4">Kitaesaert tasetruse aplicaserde neafaese mikertyu eraneo. Nsatolernatur aut oditaut.<br>Beasnseq usauntur magni dolores eo qui ratione voluptate msequi nesciuque porro quisqu ameras dolomasereta<br>jrease kuytras masertqui dolorem ipsum, quiadesa dolores.</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!--==============================row_2=================================-->
+    <div class="row_2">
+        <div class="container">
+            <div class="row">
+                <ul class="list1">
+                    <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6 collist1">
+                        <div class="">
+                            <div class="box1 color1 maxheight">
+                                <figure><img src="img/page1_icon1.png" alt=""></figure>
+                                <p>leak detection</p>
+                                <span></span>
+                            </div>
+                            <div class="box1_1 maxheight1">
+                                <p>Bertarsa atunteger rutrum losasjha vertyua hatsfasera.Bsey yoleacnrit ma hasesera deyuas lety mert betyudes. Cum socis natoqu eagnis dulmuese ugiata lesuada lecenas.</p>
+                                <a href="#" class="btn btn1"><img src="img/arrowbtn1.png" alt=""></a>
+                            </div>                       
+                        </div> 
+                    </li>
+                    <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6 collist1">
+                        <div class="">
+                            <div class="box1 color2 maxheight">
+                                <figure><img src="img/page1_icon2.png" alt=""></figure>
+                                <p>water line repair</p>
+                                <span></span>
+                            </div>
+                            <div class="box1_1 maxheight1">
+                                <p>Ctunteger rutrum losaibas kashe kertyua iaygsasa delertaertas vasante eu lacus.uisque nulladeras. Casey yoleacene anrit sesera deyuas lety miwert betyudes.</p>
+                                <a href="#" class="btn btn1"><img src="img/arrowbtn2.png" alt=""></a>
+                            </div>                       
+                        </div> 
+                    </li>
+                    <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6 collist1">
+                        <div class="">
+                            <div class="box1 color3 maxheight">
+                                <figure><img src="img/page1_icon3.png" alt=""></figure>
+                                <p>bathroom plumbing</p>
+                                <span></span>
+                            </div>
+                            <div class="box1_1 maxheight1">
+                                <p>Vunteger rutrurtarsa amenasuhe byatsua iayg salerante eu lacus.uisque nulladeras. Casey yoleacene anrit ma hasesera deyuas lety miwert betyudes m socis natoqu.</p>
+                                <a href="#" class="btn btn1"><img src="img/arrowbtn3.png" alt=""></a>
+                            </div>                       
+                        </div> 
+                    </li>
+                    <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6 collist1">
+                        <div class="">
+                            <div class="box1 color4 maxheight">
+                                <figure><img src="img/page1_icon4.png" alt=""></figure>
+                                <p>plumbing repair</p>
+                                <span></span>
+                            </div>
+                            <div class="box1_1 maxheight1">
+                                <p>Sertarsa atunteger rutebais asgera olaksj tyufeas niuas. Valante eu lacuse uisque nulladeras. Casey yoleacene anrit ma lety miwert betyudes socis natoqu eagnis.</p>
+                                <a href="#" class="btn btn1"><img src="img/arrowbtn4.png" alt=""></a>
+                            </div>                       
+                        </div> 
+                    </li>
+                </ul>
+            </div>
+        </div>             
+    </div>
+    <!--==============================row_3=================================-->
+    <div class="container">
+        <div class="row_3">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="hydro">
+                        <h2>HydroScrub&reg;</h2>
+                        <p class="title5">Lasetaten artesas kersvaseleaser niasese baertya sarters.</p>
+                        <h3>Moleacene anrit meases deyuas</h3>
+                        <p>Cum socis natoqu eagnis dimte dulm uese feugiata lesuada kerleceas strices phaledaty fenanec sit aser erment. Ut ts dolor dapegete lement velursusen eleifneanctor wisi et urna aseserta liqua volutpatis ac turpiseger rutrum.</p>
+                        <a href="#" class="btn-link btn-link1"><img src="img/arrow1.png" alt="">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-6">
+                    <h2>Commercial Plumbing Services</h2>
+                    <ul class="list2">
+                        <li>
+                            <figure><img src="img/page1_img1.jpg" alt=""></figure>
+                            <p class="title6">Muytas dolorwas</p>
+                            <p class="title7">leaser niaserat sdiwera</p>
+                            <a href="#" class="btn-link btn-link1"><img src="img/arrow1.png" alt="">more</a>
+                        </li>
+                        <li>
+                            <figure><img src="img/page1_img2.jpg" alt=""></figure>
+                            <p class="title6">drastyade sentrdas</p>
+                            <p class="title7">miaearts luytas ferose clisuas</p>
+                            <a href="#" class="btn-link btn-link1"><img src="img/arrow1.png" alt="">more</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-offset-1 col-lg-3 col-md-3 col-sm-3">
+                    <h2>Popular Services</h2>
+                    <ul class="list3">
+                        <li>
+                            <h3><a href="#">Utets dolor dentu</a></h3>
+                            <p>Soera wisi et urna.  Aliquam eratoltpas kasya saceratunteger rutrum kertyua.</p>
+                        </li>
+                        <li>
+                            <h3><a href="#">vel kaystra eleifneanc</a></h3>
+                            <p>Soera wisi et urna.  Aliquam erat voltpati kiausyas saceraturpis. Integer rutrum.</p>
+                        </li>
+                        <li>
+                            <h3><a href="#">moiase vasrteas laser</a></h3>
+                            <p>Soera wisi et urna.  Nuaystas queratmertas eger rutrum vyatsras ertyua.</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn-link btn-link1"><img src="img/arrow1.png" alt="">read more</a>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!--==============================row_4=================================-->
+    <div class="container">
+        <div class="row_4">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 row4col">
+                    <div class="vimeobox">
+                        <iframe class="vimeobox" src="//player.vimeo.com/video/37582150"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 row4col">
+                    <div class="box2">
+                        <strong>How to Fix<br>a Leaking Toilet</strong>
+                        <p>Nytirasam socis natoqu eagnis dimte dulmuese feugiata lesuada kerleceas strices phaledaty fenanec sit aser erment. Naytsdole pegete lement velursusen eleifneanctor wisi et urna aseserta liquaderas volutpatis ac turpiseger rutrum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+<!--==============================footer=================================-->
+<footer>
+    <div class="container">
+        <div class="footerrow">
+            <div class="row"> 
+                <div class="fright col-lg-offset-2 col-lg-6 col-md-8 col-sm-8">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 collist4">
+                            <ul class="list4">
+                                <li>
+                                   <a href="#"><img src="img/arrow2.png" alt="">News & Events</a>
+                                </li>
+                                <li>
+                                   <a href="#"><img src="img/arrow2.png" alt="">Conserve Water, Save Money</a>
+                                </li>
+                                <li>
+                                   <a href="#"><img src="img/arrow2.png" alt="">Installation Services</a>
+                                </li>
+                            </ul> 
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 collist4">
+                            <ul class="list4">
+                                <li>
+                                   <a href="#"><img src="img/arrow2.png" alt="">Basics of Plumbing</a>
+                                </li>
+                                <li>
+                                   <a href="#"><img src="img/arrow2.png" alt="">Sharkbite: Certified Dependable</a>
+                                </li>
+                                <li>
+                                   <a href="#"><img src="img/arrow2.png" alt="">How to Replace Sink Faucets</a>
+                                </li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <ul class="social_icons clearfix">
+                         <li><a href="#"><img src="img/follow_icon1.jpg" alt=""></a></li>
+                         <li><a href="#"><img src="img/follow_icon2.jpg" alt=""></a></li>
+                         <li><a href="#"><img src="img/follow_icon3.jpg" alt=""></a></li>
+                         <li><a href="#"><img src="img/follow_icon4.jpg" alt=""></a></li>
+                    </ul>
+                    <p class="footerpriv"><strong>Plumbing</strong> &copy; 2013 &bull; <a class="privacylink" href="index-5.html">Privacy Policy</a><!-- {%FOOTER_LINK} --></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+</body>
+</html>
